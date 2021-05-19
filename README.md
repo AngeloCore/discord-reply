@@ -30,7 +30,7 @@ require('discord-reply'); //⚠️ IMPORTANT: put this before your discord.Clien
 const client = new discord.Client();
 
 client.on('ready', () => {
-  conso le.log(client.user.tag)
+  console.log(client.user.tag)
 });
 
 client.on('message', async message => {
