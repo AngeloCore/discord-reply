@@ -21,7 +21,7 @@ require('discord-reply'); //⚠️ IMPORTANT: put this before your discord.Clien
 const client = new discord.Client();
 ```
 
-# Discord.js
+<h1>Discord.js</h2>
 
 ## Example
 ```js
@@ -71,26 +71,6 @@ if (message.content.startsWith('!ping')) {
 }
 ```
 
-## Typescript Support
-A new `Message` type has been added, however, if you would like to use any of the methods added by this package you need to do 2 things:
-1. Add `"esModuleInterop":  true` to your `tsconfig.json`.
-2. Make sure your code looks like this:
-```ts
-import Discord from  'discord.js'; // alternatively use const
-import 'discord-reply'; // alternatively you can use `require('discord-reply')`
-import { Message } from 'discord-reply'; // Import the new Message type. Import needs to be used.
-const client = new Discord.Client();
-
-client.on('message', async (message) => {
-	if (message.content.startsWith('!ping')) {
-		(message as Message).lineReply('Pong!'); // uses message as the new type
-		(message as Message).lineReplyNoMention('Pong! (but without the mention)');
-	}	
-});
-
-client.login('TOKEN');
-```
-
 ## Command Handler
 ```js
 /**
@@ -112,5 +92,4 @@ module.exports = {
 
 ## Contact
 
-- [Youtube](https://www.youtube.com/channel/UCxxK71QFN4_PrBhCFmH2Jmw)
-- [Discord](https://discord.gg/5JtyYqW)
+[Youtube](https://www.youtube.com/channel/UCxxK71QFN4_PrBhCFmH2Jmw), [Discord](https://discord.gg/5JtyYqW)
