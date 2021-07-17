@@ -14,6 +14,6 @@
   "author": "Angelo II#0007",
   "license": "Apache-2.0",
   "dependencies": {
-    "discord.js": "^12.5.1"
+    "discord.js": "^12.5.3"
   }
 }
