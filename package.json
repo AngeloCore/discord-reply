@@ -1,0 +1,23 @@
+{
+  "name": "discord-reply",
+  "version": "2.0.0",
+  "description": "An discord.js extension to inline reply messages",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write \"*.js\"",
+    "version": "npm run format"
+  },
+  "keywords": [
+    "discord.js",
+    "reply",
+    "messagereply",
+    "discordmessagereply",
+    "src",
+    "angeloii"
+  ],
+  "author": "Angelo II#0007",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "prettier": "^2.3.2"
+  }
+}
